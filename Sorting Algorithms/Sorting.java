@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Sorting{
 
-
+    // Bubble sort
 	static int[] Bubble(int [] arr){
 
 		for(int i=0;i < arr.length;i++){
@@ -16,7 +16,7 @@ public class Sorting{
 		}
 		return arr;
 	}
-
+	// Insertion Sort
 	static int[] Insertion(int [] arr){
 
 		for(int i= 0; i < arr.length-1; i++){
@@ -30,7 +30,7 @@ public class Sorting{
 		}
 		return arr;
 	}
-
+	// Selection Sort 
 	static int[] Selection(int [] arr){
 
 		for(int i= arr.length-1; i >=0 ; i--){
