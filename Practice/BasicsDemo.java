@@ -5,6 +5,10 @@ public class BasicsDemo{
 		int id;
 
 	}
+
+	static double Sum(double a, double b){
+		return ;
+	}
 	public static void main(String [] args){
 		String demo = "Xavier";
 		System.out.println(demo.getClass());
@@ -19,15 +23,8 @@ public class BasicsDemo{
 		System.out.println(news);
 		System.out.println(max);
 
-		Student [] students = new Student[2];
-		students[0] = new Student();
-		students[1] = new Student();
-		students[0].id = 12;
-		students[1].name = "amit";
-		students[0].id = 121;
-		students[1].name = "Sam";
 
-		System.out.println(students[0].name);
+		System.out.println(Sum(45.2245235, 13.4524534));
 
 
 	 }

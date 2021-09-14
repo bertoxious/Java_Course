@@ -5,6 +5,11 @@ public class Casting{
         System.out.println("Object type: " + object.getClass() +
           ", size: " + InstrumentationAgent.getObjectSize(object) + " bytes");
     }
+
+
+    static int Sum(double a, double b){
+    	return (int) (a+b);
+    }
 	public static void main(String [] args){
 		//Implicit Type Casting
 		int x = 435;
@@ -32,7 +37,8 @@ public class Casting{
 		System.out.println(nemo);
 
 		// System.out.println(instrument.getObjectSize(nemo));
-		System.out.println(ObjectSizeFetcher.getObjectSize(new C()));
+
+		System.out.println(Sum(23.141,1234.234));
 
 	}
 }
