@@ -31,9 +31,24 @@ public class Sorting{
 		return arr;
 	}
 
+	static int[] Selection(int [] arr){
+
+		for(int i= arr.length-1; i >=0 ; i--){
+			int max = 0;
+			for(int j= 0; j <= i; j++){ // 30 > 10
+				if (arr[j] > max){ 
+					max = arr[j]; // max = 30 
+				}
+			}
+		arr[i] = max; 
+		}
+		return arr;
+	}
+
 	public static void main(String args[]){
-		int [] sam = {10,30,20,40,60,50};
+		int [] sam = {60,50,40,30,20,10};
 		System.out.println(Arrays.toString(Bubble(sam)));
 		System.out.println(Arrays.toString(Insertion(sam)));
+		System.out.println(Arrays.toString(Selection(sam)));
 	}
 }
