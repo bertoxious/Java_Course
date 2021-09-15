@@ -1,5 +1,10 @@
 public class Calling{
+	
+	static int demo = 45;
 
+	// Declaring static variable inside main function will generate compile 
+	// time error.
+	
 	void print_function(){
 		System.out.println("Simple print function.");
 	}
@@ -13,5 +18,7 @@ public class Calling{
 		c.print_function();
 		Calling.print_fun();
 
+		demo = 46;
+		System.out.println(demo);
 	}
 }
