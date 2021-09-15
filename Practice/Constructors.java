@@ -5,8 +5,8 @@ public class Constructors{
 		name = username;
 		salary = usersalary;
 	}
-	Constructors(String username, int usersalary, String designation){
-		this(username, usersalary);
+	Constructors(String rapchik, int mamu, String designation){
+		this(rapchik, mamu);
 		desi = designation;
 	}
 	public static void main(String [] args){
