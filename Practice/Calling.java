@@ -1,19 +1,17 @@
 public class Calling{
 
-	static void updatedID(Calling id){
-		c.id = 2000;
+	void print_function(){
+		System.out.println("Simple print function.");
+	}
+
+	static void print_fun(){
+		System.out.println("Static print function.");
 	}
 	public static void main(String [] args){
-		int id = 1000;
-		updatedID(id);
-		System.out.println(id);
-
+		// Static vs non-static Function Calling.
 		Calling c = new Calling();
-		c.id = 1000;
-		updatedID(c);
-		System.out.println(id);
-
-
+		c.print_function();
+		Calling.print_fun();
 
 	}
 }
