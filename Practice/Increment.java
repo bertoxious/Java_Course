@@ -24,5 +24,16 @@ class Increment{
 		int s = --r;
 		System.out.println("Value of r is :: "+ r);
 		System.out.println("Value of s is :: "+ s);
+
+		int element = 0;
+		for (int i =0; i< 5; i++){
+			element ++;
+			System.out.println(element);
+		}
+		element = 0;
+		for (int i=0; i< 5; i++){
+			++element;
+			System.out.println(element);
+		}
 	}
 }
