@@ -19,6 +19,6 @@ class StudentTest{
 
 
 		t.Update("Minato", "Namikaze");
-		System.out.println("Updated name of Sensei is :: "+ t.fname + t.lname);
+		System.out.println("Updated name from " + old[0] +" "+ old[1] + " to " + t.fname + " " + t.lname );
 	}
 }

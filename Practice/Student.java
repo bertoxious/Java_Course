@@ -12,9 +12,13 @@ public class Student{
 		this.lname = lname;
 	}
 
-	boolean Update(String fname, String lname){
+	String[]  Update(String fname, String lname){
+		String [] old = new String[2];
+		old[0] = this.fname;
+		old[1] = this.lname;
 		this.fname = fname;
 		this.lname = lname;
-		return true;
+
+		return old;
 	}
 }
