@@ -1,4 +1,6 @@
 public class Code{
+
+	// Playground
 	int age; String name; boolean ki;
 	
 	void Code(int umar, String naam, boolean pappu){
