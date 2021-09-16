@@ -1,18 +1,24 @@
 public class Code{
 
 	// Playground
-	int age; String name; boolean ki;
-	
-	void Code(int umar, String naam, boolean pappu){
-		this(umar, naam, false);
-		if(ki){
-			System.out.println("Pappu pass");
-		}
+	int id; String name; int salary;
 
+	Code(int userid, String username){
+		id = userid;
+		name = username;
 	}
+
+	Code(int userid, String username, int usersalary){
+		this(userid, username);
+		salary = usersalary;
+	}
+
 	public static void main(String [] args){
 
-		Code c = new Code();
-		c.Code(17,"Martinas",true);
+		Code student = new Code(1,"Ashish Kumar Uniyal");
+		System.out.println("Student id:: "+ student.id + "Student Name :: " + student.name);
+		Code instructor = new Code(2,"Rajan Punchouty",1000000);
+		System.out.println("Name :: "+ instructor.name + "ID :: "+ instructor.name + "Salary :: "+ instructor.salary);
+
 	}
 }
