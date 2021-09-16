@@ -18,7 +18,10 @@ class StudentTest{
 		System.out.println("Sensei :: "+ t.fname + t.lname);
 
 
-		t.Update("Minato", "Namikaze");
-		System.out.println("Updated name from " + old[0] +" "+ old[1] + " to " + t.fname + " " + t.lname  );
+		String[] oldvalue = t.Update("Minato", "Namikaze");
+		System.out.println("Updated name from " + oldvalue[0] +" "+ oldvalue[1] + " to " + t.fname + " " + t.lname  );
+
+		Student copy = s1;
+		System.out.println(copy.fname + " " + copy.lname );
 	}
 }
