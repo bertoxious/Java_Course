@@ -1,5 +1,6 @@
 public class Code{
 	int age; String name; boolean ki;
+	
 	void Code(int umar, String naam, boolean pappu){
 		this(umar, naam, false);
 		if(ki){
