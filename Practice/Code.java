@@ -4,4 +4,6 @@ public class Code{
 
 	public static void main(String [] args){ int x = 45; float y = 34.45f;
 	System.out.println(y/x); int retro = 45; int demo = retro++;
-	System.out.println(retro); System.out.println(demo); } }
+	System.out.println(retro); System.out.println(demo);
+	// Char to ascii
+	char a = 'a'; char b = 'b'; System.out.println(a+b); } }
