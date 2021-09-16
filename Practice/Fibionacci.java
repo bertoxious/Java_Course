@@ -1,6 +1,5 @@
 public class Fibionacci{
 
-
 	static int Fibionacci(int number){
 		int a = 0; int b = 1;int sum;
 		if (number == 0){
