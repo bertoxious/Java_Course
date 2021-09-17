@@ -5,7 +5,8 @@ public class VariableArguments{
 	void vargsmethod(int i, int j, int k){
 		System.out.println(i+j+k);
 	}
-
+	// this is how varargs works in java
+	
 	void vargsmethod(int... array){
 		int sum=0;
 		for (int i=0; i< array.length; i++){
