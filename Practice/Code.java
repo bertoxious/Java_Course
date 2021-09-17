@@ -5,7 +5,10 @@ public class Code{
 		System.out.println("String [] args method executed");
 
 		// java equals Ignore Case function compares two strings irrespective of the uppercases or lowercases in them.
-		System.out.print("Sam".equalsIgnoreCase("sam"));
+		System.out.println("Sam".equalsIgnoreCase("sam"));
+
+		// This is how equals ignore case works with spaces
+		System.out.println("S a m ".equalsIgnoreCase("sam"));
 	}	
 
 	public static void main(int [] args){
