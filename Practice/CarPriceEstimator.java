@@ -1,5 +1,7 @@
 class CarPriceEstimator{
 
+
+		// A function to estimate price of old car or for second hand car
 		double getSalePrice(String makeAndModel, int yearManufactured, double milesDriven,
 		int airbagsCount, boolean hasAbs, boolean hasEbd, boolean hasRearCameraView, boolean hasAutoAC,
 		boolean hasAccidentHistory){
