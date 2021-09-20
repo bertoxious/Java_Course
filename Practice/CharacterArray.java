@@ -19,7 +19,16 @@ public class CharacterArray{
 		System.out.println(s.compareTo(s1));
 
 		char c = 'A';
-		int d = 5;
+		int d =5;
 		System.out.println(c+d);
+
+		int z = 10;
+		float x = 23.45f;
+		double v = 45.243523;
+		boolean n = true;
+		System.out.println(String.valueOf(c));
+		System.out.println(String.valueOf(x));
+		System.out.println(String.valueOf(v));
+		System.out.println(String.valueOf(n));
 	}
 }
