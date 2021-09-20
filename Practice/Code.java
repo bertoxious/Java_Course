@@ -26,8 +26,11 @@ public class Code{
 		Date date;
 		ArrayList list;
 		java.sql.Date date2;
-
 	}
+	int uzumaki = 43;
+	String naruto = "Nanadaime Hokage";
+	System.out.println(uzumaki + naruto);
+	System.out.println("String" + 43);
 	}	
 
 	public static void main(int [] args){
