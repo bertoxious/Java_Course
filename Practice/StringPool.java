@@ -5,7 +5,7 @@ public class StringPool{
  	// String Pool
 	String d = new String("Java").intern();
 	// Java Heap
-	String a = new String("Java");
+	String a = new String("Java"); 
 
 	System.out.println("With intern() :: " + (s==d));
 	System.out.println("Without intern() :: "+ (s==a));
