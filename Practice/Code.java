@@ -1,3 +1,6 @@
+import java.util.Date;
+import java.util.ArrayList;
+
 public class Code{
 
 	// Playground
@@ -19,7 +22,12 @@ public class Code{
 		int [] arr = new int[] {10,20,30,40,50};
 		for(int i=0; i< arr.length; System.out.println(arr[i++]));
 		// working of for each loop in java
-		for(int i : arr){ System.out.println(i + " ");}
+		for(int i : arr){ System.out.println(i + " ");
+		Date date;
+		ArrayList list;
+		java.sql.Date date2;
+
+	}
 	}	
 
 	public static void main(int [] args){
