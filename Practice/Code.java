@@ -31,13 +31,6 @@ public class Code{
 	String naruto = "Nanadaime Hokage";
 	System.out.println(uzumaki + naruto);
 	System.out.println("String" + 43);
-	int value = 1000;
-	switch(value){
-		case 1000: System.out.println("Greater than operation");break;
-		case 2000 : System.out.println("And operation");break;
-		case 3000 : System.out.println("Equal Operation");break;
-		default: System.out.println("Nothing Found");
-	}
 	}	
 
 
