@@ -41,3 +41,5 @@ Classes are independent of each other. The only knowledge one class has about th
 When two classes are highly dependent on each other it is called Tight Coupling.
 #### Interfaces
 Interfaces are used for inheritance purposes only. Interfaces do not have any visibility section, as they do not need any. They have methods which need to be implemented in the sub class. In the subclasses we can inherit the methods of interfaces publicly or privately or in protected mode.
+A class can only implement an interface and cannot extend an interface. 
+An interface can extend multiple interfaces i.e public interface Interface1 extends Interface2, Interface3{}
