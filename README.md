@@ -39,3 +39,5 @@ A static function can't be overridden. A static variable can't be defined inside
 Classes are independent of each other. The only knowledge one class has about the other class is what the other class has exposed through its interface.
 #### Tight Coupling
 When two classes are highly dependent on each other it is called Tight Coupling.
+#### Interfaces
+Interfaces are used for inheritance purposes only. Interfaces do not have any visibility section, as they do not need any. They have methods which need to be implemented in the sub class. In the subclasses we can inherit the methods of interfaces publicly or privately or in protected mode.
