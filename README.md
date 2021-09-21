@@ -43,3 +43,4 @@ When two classes are highly dependent on each other it is called Tight Coupling.
 Interfaces are used for inheritance purposes only. Interfaces do not have any visibility section, as they do not need any. They have methods which need to be implemented in the sub class. In the subclasses we can inherit the methods of interfaces publicly or privately or in protected mode.
 A class can only implement an interface and cannot extend an interface. 
 An interface can extend multiple interfaces i.e public interface Interface1 extends Interface2, Interface3{}
+Interfaces are non-instantiable. i.e we cannot create objects of interfaces as interfaces contain the abstract methods and these methods are used via implements keyword only.
