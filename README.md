@@ -35,6 +35,7 @@ Constructors do not have a return type not even void.
 Memory allocation is done only once for a static variable. Since memory is allocated for the static variables or functions, these can be called without using objects.
 Static variables are stored in static memory. A static int variable remains in the memory while the program is running. A normal or auto variable is destroyed when a function stops. A static function can be invoked without the use of object.
 A static function can't be overridden. A static variable can't be defined inside a method as it would generate a compile time error. A static variable is shared among all the instances of a class. It like a global variable available to all methods.
+Static methods can be overloaded but cannot be overriden.
 #### Loose Coupling 👇
 Classes are independent of each other. The only knowledge one class has about the other class is what the other class has exposed through its interface.
 #### Tight Coupling 👇
