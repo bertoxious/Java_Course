@@ -72,7 +72,16 @@ public class Sorting{
 	Recursively Sorts the subsets
 	Combine or merge the result into a solution
 	Merger sort uses divide and conquer approach*/
-	static int[] MergeSort(int [] arr){
+	static int[] MergeSort(int [] arr, int left, int right){
+		if (left < right){
+			mid = ( left + right ) / 2;
+			MergeSort( arr, left, mid);
+			MergeSort( arr, mid+1, right);
+			merge(arr, left , mid, right);
+			// Uncomplete
+		}
+
+
 		
 	}
 	public static void main(String args[]){
