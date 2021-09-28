@@ -19,7 +19,9 @@ public class ExceptionHandling{
 		catch(IOException e){
 			System.out.println("\n Connecting to a different server.... ");
 		}
-		
+		finally{
+			System.out.println("\n Inside finally block !");
+		}
 		System.out.println("\n End of share");
 	}
 }
