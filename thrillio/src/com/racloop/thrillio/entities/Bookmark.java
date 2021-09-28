@@ -1,6 +1,6 @@
 package com.racloop.thrillio.entities;
 
-public abstract class Bookmark {
+public class Bookmark {
     private long id;
     private String title;
     private String profileUrl;
