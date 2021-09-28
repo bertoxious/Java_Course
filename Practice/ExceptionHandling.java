@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class ExceptionHandling{
 
@@ -14,6 +15,9 @@ public class ExceptionHandling{
 		}
 		catch(FileNotFoundException e){
 			e.printStackTrace();
+		}
+		catch(IOException e){
+			System.out.println("\n Connecting to a different server.... ");
 		}
 		
 		System.out.println("\n End of share");
