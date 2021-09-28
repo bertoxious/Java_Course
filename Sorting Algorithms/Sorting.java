@@ -78,7 +78,7 @@ public class Sorting{
 			MergeSort( arr, left, mid);
 			MergeSort( arr, mid+1, right);
 			merge(arr, left , mid, right);
-			// Uncomplete
+			// Uncomplete 
 		}
 
 
