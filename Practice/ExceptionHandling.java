@@ -1,3 +1,5 @@
+import java.io.FileNotFoundException;
+
 public class ExceptionHandling{
 
 	public static void main(String [] args){
@@ -7,7 +9,13 @@ public class ExceptionHandling{
 	}
 	public static void share(){
 		System.out.println("\n Starting of share function ");
-		HttpConnect.send(0,"hello","http:/www.goodsnips.com");
+		try{
+			HttpConnect.send(0,"hello","http:/www.goodsnips.com");	
+		}
+		catch(FileNotFoundException e){
+			e.printStackTrace();
+		}
+		
 		System.out.println("\n End of share");
 	}
 }
