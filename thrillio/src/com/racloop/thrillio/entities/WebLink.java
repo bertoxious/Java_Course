@@ -27,8 +27,8 @@ public class WebLink extends Bookmark{
                 ", host='" + host + '\'' +
                 '}';
     }
-    @Override
-    public boolean isKidFriendlyEligible(){
-        return true;
-    }
+//    @Override
+//    public boolean isKidFriendlyEligible(){
+//        return true;
+//    }
 }

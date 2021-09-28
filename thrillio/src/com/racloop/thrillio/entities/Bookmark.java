@@ -29,7 +29,7 @@ public abstract class Bookmark {
         this.profileUrl = profileUrl;
     }
 
-    public abstract boolean isKidFriendlyEligible();
+//    public abstract boolean isKidFriendlyEligible();
 
     @Override
     public String toString() {
