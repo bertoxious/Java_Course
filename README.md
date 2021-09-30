@@ -4,6 +4,12 @@
 ## Key notes:
 
 #### Abstract class 👇
+Abstraction is the process of hiding the implementation details and showing only the functionality to the user. There are two ways to achieve abstraction: 
+1. Abstract Class(0-100%)
+2. Interface(100%)
+eg. abstract class Laptop{ abstract void configurations(); }
+class Hp extends Laptop{ void configurations(){System.out.println("Here are the specs.");} public static void main(String [] args){ Laptop h = new Hp(); h.configurations();}}
+A java interface can only have abstract methods.
 We cannot create object of an abstract class and an abstract method is the method which is declared without its implementation. eg abstract String Method();
 #### Constructor Chaining 👇
 In java everytime we create an object of class it calls the parent class constructor even if you don't specify. This is called constructor chaining.
