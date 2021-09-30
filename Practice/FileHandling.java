@@ -42,6 +42,16 @@ public class FileHandling{
 			System.out.println("Error :: Unable to read the file.");
 			e.printStackTrace();
 		}
+		// // Code for deleting a file
+		// File myfile = new File("PATH+NAME");
+		// myfile.delete();
+		// // or we can use
+		// if (myfile.delete()){
+		// 	System.out.println("Successfully deleted file ");
+		// }
+		// else{
+		// 	System.out.println("Some error occurred while deleting the file.");
+		// }
 
 	}
 }
