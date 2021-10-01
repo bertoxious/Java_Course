@@ -4,13 +4,16 @@ class Parent{
 	void parent_method(){
 		System.out.println("I am the parent");
 	}
+
 }
 
 class Child extends Parent {
 
 	void child_method(){
 		System.out.println("I am the child");
+		super.parent_method();
 	}
+
 }
 
 
@@ -40,11 +43,13 @@ public class Upcasting{
 
 		// Child c = (Child) new Parent();
 		// c.child_method();
-		
+
 		// Downcasting (Explicit)
 		Child c = (Child) p;
 		c.parent_method();
 		c.child_method();
+		// parent method accessed using super keyword
+		
 
 	}
 }
