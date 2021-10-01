@@ -21,7 +21,7 @@ public class Upcasting{
 		// Child object
 		Child child = new Child();
 
-		// Upcasting 
+		// Upcasting (Implicit Casting)
 		Parent p = new Child();
 		/* In this the Child is implicitly typecasted to Parent 
 		so we can call the methods only available in the parent 
@@ -40,7 +40,8 @@ public class Upcasting{
 
 		// Child c = (Child) new Parent();
 		// c.child_method();
-
+		
+		// Downcasting (Explicit)
 		Child c = (Child) p;
 		c.parent_method();
 		c.child_method();
