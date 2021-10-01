@@ -55,4 +55,4 @@ Interfaces are non-instantiable. i.e we cannot create objects of interfaces as i
 ### Parent p = new Child();
 In this the child is implicitly typecasted to parent so we can invoke the only methods in the parent class.
 ### Child c = (Child) p;
-In this we are downcasinh explicitly and this would invoke both the parent and the child methods.
+In this we are downcasting explicitly and this would invoke both the parent and the child methods.
