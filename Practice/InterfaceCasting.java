@@ -21,7 +21,10 @@ public class InterfaceCasting{
 
 	public static void main(String [] args){
 		Interface inter = new Beta(); 
-		betaji.beta_method();
 		inter.inside_interface();
+		Beta betaji = new Beta();
+		betaji.beta_method();
+		betaji.method();
+
 	}
 }
