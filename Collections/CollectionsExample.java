@@ -31,12 +31,29 @@ public class CollectionsExample{
 		// .set(Index, value) and would return the value interchanged with
 		System.out.println("arrList.lastIndexOf(45) ::"+ arrList.lastIndexOf(45));
 
-		Collection <String> strList = new ArrayList<String>();
+		// Colllection interface implementing ArrayList
+
+		Collection <String> strList = new ArrayList<>();
 		strList.add("Ichi");
 		strList.add("Ni");strList.add("Go");
 		strList.add("San");strList.add("Youm");strList.add("Go");strList.add("Roku");
 		System.out.println(strList);
-		System.out.println(strList.indexOf("Go"));
-		System.out.println(strList.lastIndexOf("Go"));
+		// System.out.println(strList.indexOf("Go"));
+		// System.out.println(strList.lastIndexOf("Go"));
+
+		// ArrayList implementing ArrayList
+
+		ArrayList al = new ArrayList();
+		al.add("Manji");
+		al.add("Black Dragons");
+		al.add("Brahman");
+		al.add("Senju");
+		al.add(1);
+		al.add(2.0);
+		al.add(3);
+		al.add(4.0);
+		System.out.println(al);
+		System.out.println(al.lastIndexOf(2.0));
+		
 	}
 }
