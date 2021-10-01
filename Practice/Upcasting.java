@@ -14,7 +14,6 @@ class Child extends Parent {
 }
 
 
-
 public class Upcasting{
 
 	public static void main(String [] args){
@@ -35,5 +34,16 @@ public class Upcasting{
 
 		// Child c = new Parent(); 
 		// c.child_method();
+
+		/* This would generate a run-time error instead of a compile
+		time error */
+
+		// Child c = (Child) new Parent();
+		// c.child_method();
+
+		Child c = (Child) p;
+		c.parent_method();
+		c.child_method();
+
 	}
 }
