@@ -14,7 +14,7 @@ class Beta extends Papa implements Interface{
 	public void beta_method(){
 		System.out.println("I am beta");
 	}
-
+	
 } 
 
 public class InterfaceCasting{
