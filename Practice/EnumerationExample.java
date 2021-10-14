@@ -16,7 +16,7 @@ class EnumerationExample {
          Code var = Code.Langa;
          //System.out.println(Nanga == "Langa");  E R R O R -- Incomparable data types
          System.out.println(var);
-         System.out.println("Name of the class is :: "+var.getClass().getSimpleName());
+         System.out.println("Name of the class is :: " + var.getClass().getSimpleName());
          System.out.println(Constant.SAMSUNG.ranking);
     }
 }
