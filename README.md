@@ -56,3 +56,13 @@ Interfaces are non-instantiable. i.e we cannot create objects of interfaces as i
 In this the child is implicitly typecasted to parent so we can invoke the only methods in the parent class.
 ### Child c = (Child) p;
 In this we are downcasting explicitly and this would invoke both the parent and the child methods.
+#### Enum
+java.lang.Enum package , MyEnum.values() returns an array of MyEnum values
+enums constants are implicitly static and final and cannot be changed once created 
+we cannot create instance of enums by using new operator.
+instance of enum in java is created when any enum constants are first called or referenced.
+enum can be declared inside or outside class but not int a method.
+Enums can contain constructor, methods, variables and constant class bodies.
+putting semicolon at end of enum is optional.
+
+
