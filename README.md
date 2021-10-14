@@ -52,9 +52,9 @@ A class can only implement an interface and cannot extend an interface.
 An interface can extend multiple interfaces i.e public interface Interface1 extends Interface2, Interface3{}
 Interfaces are non-instantiable. i.e we cannot create objects of interfaces as interfaces contain the abstract methods and these methods are used via implements keyword only.
 #### Upcasting and Downcasting
-### Parent p = new Child();
+##### Parent p = new Child();
 In this the child is implicitly typecasted to parent so we can invoke the only methods in the parent class.
-### Child c = (Child) p;
+##### Child c = (Child) p;
 In this we are downcasting explicitly and this would invoke both the parent and the child methods.
 #### Enum 👇
 java.lang.Enum package , MyEnum.values() returns an array of MyEnum values
