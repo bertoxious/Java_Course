@@ -11,7 +11,7 @@ import com.racloop.thrillio.managers.BookmarkManager;
 import com.racloop.thrillio.managers.UserManager;
 
 public class DataStore {
-
+    
     private static final int USER_BOOKMARK_LIMIT = 5;
     private static final int BOOKMARK_COUNT_PER_TYPE = 5;
     private static final int BOOKMARK_TYPES_COUNT = 3;

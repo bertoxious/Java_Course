@@ -11,7 +11,6 @@ public class StackExample{
 		System.out.println(theStack);
 		theStack.pop();
 		System.out.println(theStack);
-		System.out.println(theStack.seek());
 
 		// List interface
 		List<Integer> intStack = new Stack<>();
@@ -19,5 +18,8 @@ public class StackExample{
 		intStack.add(45);
 		intStack.add(56);
 		System.out.println(intStack);
+
+		theStack.forEach(System.out::println);
+
 	}
 }
