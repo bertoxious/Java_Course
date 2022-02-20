@@ -2,7 +2,14 @@
 ### Superfast java
 😎
 ## Key notes:
-
+#### Diffrerent types of method areas allocated by JVM  
+1. ClassLoader: Component of JVM used to load class files.  
+2. Class (Method) Area: It stores per-class structures such as the runtime constant pool, field and method area and the code for methods.  
+3. Heap: Heap is created at runtime and it contains the runtime data area in which objects are allocated.  
+4. Stack: Stores local variables and partial results at runtime. Helps in method invocation and return value. Each thread creates a private JVM stack at the time of thread creation.  
+5. Program Counter Register: Contains address of JVM instruction that is currently being executed.  
+6. Native method stack: This area is reserved for all the native methods used in this application.  
+7. 
 #### Abstract class 👇
 Abstraction is the process of hiding the implementation details and showing only the functionality to the user. There are two ways to achieve abstraction: 
 1. Abstract Class(0-100%)
